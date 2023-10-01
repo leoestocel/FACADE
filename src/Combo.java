@@ -5,7 +5,7 @@ public class Combo {
 
          Bebida bebida = new Bebida("Coca", 6, 200);
          Sobremesa sobremesa = new Sobremesa("Sorvete de creme", 10, "Medio");
-         Burguer burguer = new Burguer("X-Salada", 20, 200);
+         Burguer burguer = new Burguer(Salada", 20, 200);
 
          System.out.println("Super Combo");
          System.out.println(bebida);
@@ -20,7 +20,7 @@ public class Combo {
 
          Bebida bebida = new Bebida("Fanta", 6, 200);
          Sobremesa sobremesa = new Sobremesa("Sorvete de chocolate", 10, "Medio");
-         Burguer burguer = new Burguer("X-calabresa", 25, 200);
+         Burguer burguer = new Burguer("X", 25, 200);
 
          System.out.println("Combo Master");
          System.out.println(bebida);
@@ -29,15 +29,6 @@ public class Combo {
          double precoTotal = bebida.getPreco() + burguer.getPreco() + sobremesa.getPreco();
          System.out.println("preço Total: " + precoTotal);
 
-      }
-   }
-
-   @Override
-   public String toString() {
-      return """
-             ************************************
-                       Volte Sempre 😉
-             ************************************          
-              """;
-   }
+      
+         }
 }
